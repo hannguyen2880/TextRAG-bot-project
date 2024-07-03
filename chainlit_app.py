@@ -135,7 +135,7 @@ text_splitter = RecursiveCharacterTextSplitter(
     chunk_size=1000, chunk_overlap=100)
 embedding = HuggingFaceEmbeddings()
 LLM = get_huggingface_llm()
-welcome_message = """Welcome to the PDF QA! Here, you can upload a PDF or text file, and I will showcase my knowledge by answering your questions. To get started:
+welcome_message = """Welcome to the PDF QA! To get started:
 1. Upload a PDF or text file
 2. Ask a question about the file
 """
